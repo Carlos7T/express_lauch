@@ -15,4 +15,10 @@ app.get('/node', (req, res) => {
     const explorer3 = {id: 3, name: 'Explorer 3'};
 });
 
+app.get('/node/:id', (req, res) => {
+    const id = req.params.id;
+    const explorer = {id: id, name: 'Explorer ' + id};
+    res.send(explorer);
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
