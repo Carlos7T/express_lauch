@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Carlos7T/express_lauch/issues"
   },
-  "homepage": "https://github.com/Carlos7T/express_lauch#readme"
+  "homepage": "https://github.com/Carlos7T/express_lauch#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
 }
